@@ -1,7 +1,7 @@
 {
-    "name": "waarneembemiddeling/php-pdfimages",
+    "name": "vishev/php-pdfimages",
     "require": {
-        "alchemy/binary-driver": "~1.5"
+        "vishev/binary-driver": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
@@ -19,5 +19,11 @@
     ],
     "autoload": {
         "psr-4": { "Wb\\PdfImages\\": "src/" }
-    }
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/vishev/binary-driver",
+            "type": "git"
+        }
+    ]
 }
